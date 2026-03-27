@@ -1,0 +1,8 @@
+aiosqlite==0.22.1
+discord.py==2.6.4
+dopamine-framework==1.5.0
+pronouncing==0.2.0
+syllapy==0.7.2
+inflect==7.5.0
+python-dotenv==1.2.1
+setuptools==81.0.0
