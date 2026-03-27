@@ -1,10 +1,10 @@
-﻿## Haiku Bot by Dopamine Studios
+﻿# Haiku Bot by Dopamine Studios
 
 A specialized Discord bot built with `discord.py` on top of [Dopamine Framework](https://github.com/dopaminestudios/dopamine-framework) that silently monitors conversations to catch accidental poetry. When a user sends a message that fits the **5-7-5 syllable structure**, the bot formats it into a beautiful haiku embed.
 
 ---
 
-### Features
+## Features
 
 * **Real-time Detection:** Processes incoming messages through an asynchronous worker queue to ensure zero lag in your chats.
 * **Advanced Syllable Scoring:** Uses a multi-layered approach to count syllables:
@@ -19,7 +19,7 @@ Additionally, since the bot is built on top of [Dopamine Framework](https://gith
 
 ---
 
-### Installation
+## Installation
 
 1.  **Clone the Repository**
     ```bash
@@ -44,13 +44,13 @@ Additionally, since the bot is built on top of [Dopamine Framework](https://gith
 
 ---
 
-### Usage
+## Usage
 Run the bot using:
 ```bash
 python main.py
 ```
 
-#### Commands
+### Commands
 * `/haiku detection enable` – Turn on haiku monitoring for the current server (Requires Moderator permissions).
 * `/haiku detection disable` – Turn off haiku monitoring.
 * `!!view_haiku_word_count` – (Owner Only) Check the size of the syllable cache.
@@ -60,7 +60,7 @@ python main.py
 
 ---
 
-### License & Attribution
+## License & Attribution
 This project is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0). This means if you modify the bot and run it as a service, you must share your modified source code under the same license.
 
 The bot already mentions credit to **Dopamine Studios** in the message sent when the bot is invited to a server. **You must not remove the attribution** from that message.
