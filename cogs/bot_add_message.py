@@ -14,7 +14,7 @@ class BotAdd(commands.Cog):
                 "### Thank you for inviting me!\n\n"
                 "I'm **Haiku Bot**. I detect Haikus — and sometimes, successfully!\n\n"
                 "**I will now be listening to all messages for Haikus.** If you don't want that, use `/haiku detection disable` or simply remove me from your server.\n\n"
-                "-# I'm open-source! If you want to host me on your own computer, check out the GitHub repository by [clicking here](https://github.com/dopaminestudios/haikubot)."
+                "-# I'm open-source! If you want to host me yourself, check out the GitHub repository by [clicking here](https://github.com/dopaminestudios/haikubot)."
             ),
             color=discord.Color(0x944ae8)
         )

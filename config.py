@@ -7,6 +7,8 @@ load_dotenv()
 # Tokens (nom nom nom, tasty 🤤😝)
 TOKEN = os.getenv("DISCORD_TOKEN")
 LOGGING_DEBUG_MODE = os.getenv("LOGGING_DEBUG_MODE", False)
+if not TOKEN:
+    raise SystemExit("Set DISCORD_TOKEN in .env")
 
 # Base directory
 BASE_DIR = Path(__file__).resolve().parent
